@@ -1,0 +1,65 @@
+.hide{
+    display: none;
+}
+
+ html {
+    height: 100%;
+  }
+  
+.body{
+    /* The image used */
+  background-image: url("https://res.cloudinary.com/aaron07/image/upload/v1649715877/mySlamBook/background_yllpdk.jpg");
+ font-family: Lobster, cursive; 
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    height:auto;
+    width: auto;
+   
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+
+    font:bold 14px;
+    color:#1E88E5;
+    width:100%;
+    height:auto;
+    padding:1%;
+
+  }
+.share{
+  background-color: #494A5B;
+}
+  main {
+    padding-bottom: 30px /*whatever the height of your footer is*/
+  }
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+  }
+.table{
+    background-color: white;
+}
+
+td,th{
+    text-align: center;
+}
+
+tbody{
+    text-align: center;
+}
+
+thead{
+    text-align: center;
+}
+
+.thirdCol{
+    text-align: left;
+}
